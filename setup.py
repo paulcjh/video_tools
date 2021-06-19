@@ -11,8 +11,8 @@ setuptools.setup(
     description="Some groovy video tools focused on ML.",
     long_description=long_description,
     url="https://github.com/paulcjh/video_tools",
-    package_dir={"": "video_tools"},
-    packages=setuptools.find_packages(where="video_tools"),
+    # package_dir={"": "video_tools"},
+    packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
